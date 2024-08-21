@@ -1,0 +1,15 @@
+<button class="card-button">
+  <mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{ content.nomeAlbum }}</mat-card-title>
+        <mat-card-subtitle>{{ content.autore }}</mat-card-subtitle>
+        <mat-card-subtitle>Durata Totale: {{ getFormattedDuration() }} min</mat-card-subtitle>
+      </mat-card-title-group>
+    </mat-card-header>
+    <img mat-card-image src={{content.imgUrl}} class="album-image">
+    <mat-card-content>
+      <!-- Altri contenuti del card -->
+    </mat-card-content>
+  </mat-card> 
+</button>

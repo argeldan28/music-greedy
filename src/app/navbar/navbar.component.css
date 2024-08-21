@@ -1,0 +1,24 @@
+.prova
+{
+    background-color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    position: fixed; /* Imposta il position a fixed */
+    width: 100%; /* Occupa tutta la larghezza della finestra */
+    top: 0; /* Fissa il toolbar in cima alla pagina */
+    z-index: 1000;
+}
+.text
+{
+    margin-left: 40px;
+}
+a
+{
+    font-size: large;
+    margin-left: 40px;
+    
+}
+a:hover
+{
+    background-color: rgb(221, 221, 221);
+}

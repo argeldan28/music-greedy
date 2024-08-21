@@ -1,0 +1,39 @@
+.example-card {
+    width: 400px; /* larghezza desiderata per il card */
+    margin: 16px; /* margine esterno */
+    background-color: rgb(156, 168, 177);
+    border: none;
+  }
+  
+  .mat-card-header {
+    background-color: #1976d2; /* colore di sfondo dell'header */
+    color: white; /* colore del testo nell'header */
+    padding: 12px;
+  }
+  
+  .mat-card-content {
+    display: flex; /* rendi il contenuto del card un flexbox */
+    flex-direction: column; /* direzione di colonna per i figli del flexbox */
+  }
+  
+  .mat-card-title {
+    font-size: 1.5rem; /* dimensione del titolo */
+    font-weight: bold; /* grassetto per il titolo */
+  }
+  
+  .mat-card-subtitle {
+    font-size: 1rem; /* dimensione del sottotitolo */
+    color: rgba(255, 255, 255, 0.7); /* colore leggermente attenuato per il sottotitolo */
+  }
+  
+  iframe {
+    width: 100%; /* rendi l'iframe largo quanto il contenitore */
+    height: 250px; /* altezza fissa del video (adatta questa altezza in base alle tue esigenze) */
+    border: none;
+  }
+  
+  @media (max-width: 600px) {
+    .example-card {
+      width: 100%; /* rendi il card piena larghezza su schermi piccoli */
+    }
+  }

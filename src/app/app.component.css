@@ -1,0 +1,17 @@
+.sticky-navbar
+{
+    background-color: gray;
+
+}
+
+.pagina
+{
+    background-image: url('https://wallpapercave.com/wp/wp6272586.jpg');
+    background-size: cover; /* Dimensioni originali dell'immagine */
+    background-position: center;
+    background-attachment: fixed; /* Immagine fissa */
+    min-height: 100vh; /* Altezza minima per occupare l'intera viewport */
+    justify-content: flex-start;
+    padding-top: 65px; 
+}
+
